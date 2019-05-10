@@ -1,0 +1,44 @@
+
+#menu {
+	width: 700px;
+	border: 1px solid #0000FF; 
+	background-color: #2696E8;
+	margin: 0px auto; 
+}
+
+#menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+
+	list-style-type: none;
+} 
+
+a:link, a:visited {
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #2696E8;
+	font: 16px/38px Times_new_roman;
+	height: 38px;
+	padding: 0px 10px;
+display: block;
+}
+
+a:hover {
+	text-decoration: none;
+	text-align: center;
+	color: #2696E8;
+	background-color: #FFFFFF;
+	font:  16px/38px Times_new_roman;
+	height: 38px;
+	padding: 0px 10px;
+	display: block;
+
+}
+
