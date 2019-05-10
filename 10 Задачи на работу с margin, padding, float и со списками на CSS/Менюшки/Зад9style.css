@@ -1,0 +1,45 @@
+
+td {
+text-align: center;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	font-family: Arial;
+		} 
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+	font-size: 12px;
+	font-family: Arial;
+}
+ 
+a.grey {
+	color: #8CA2C1;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+#red7 {
+	color: red;
+}
+
+#menu9 {
+	width: 150px;
+	margin: 20px 0px;
+}
+#menu9 table {
+	width: 100%;
+	height: 100%;
+	display: table;
+	border-spacing: 0;
+	border-collapse: collapse;
+	}
+
+#menu9 th {
+	border-bottom: 1px solid black;
+}
+

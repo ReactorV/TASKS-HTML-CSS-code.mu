@@ -1,0 +1,63 @@
+
+#menu6 a:link{
+	text-decoration: none;
+	color: blue;
+		} 
+
+#menu6 a:hover {
+	text-decoration: none;
+	color: red;
+}
+ 
+#menu6 ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+#menu6 li {
+	border: 1px solid blue;
+	padding: 5px;
+	display: inline-block
+}
+
+#menu6 {
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+#menu7 a:link{
+	text-decoration: none;
+	color: blue;
+		} 
+
+#menu7 a:hover, #menu7 a.active {
+	text-decoration: none;
+	color: white;
+	background-color: #484848;
+}
+ 
+#menu7 ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+#menu7 li {
+	border: 1px solid blue;
+	float: left;
+	margin-left: 5px;
+	line-height: 25px;
+}
+
+#menu7 {
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+#menu7 a {
+	display: block;
+	padding: 0px 5px;
+}
+
+.clearfix {
+	clear: both;
+ }

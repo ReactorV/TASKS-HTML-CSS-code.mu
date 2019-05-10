@@ -1,0 +1,18 @@
+div {
+	text-align: justify;
+	width: 600px;
+	height: 355px;
+	}
+
+#aaa {
+	float:right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	padding-top: 170px;
+}
+
+#bbb {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}

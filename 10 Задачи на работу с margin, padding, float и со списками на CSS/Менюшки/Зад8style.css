@@ -1,0 +1,66 @@
+
+#menu8 a:link, #menu8 a:visited {
+	text-decoration: none;
+	color: white;
+	background-color: #FC9D00;
+	display: block;
+	padding: 0px 13px;
+	text-align: center;
+	line-height: 35px;
+
+		} 
+
+#menu8 a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 0px 13px;
+}
+ 
+#menu8 ul {
+	list-style-type: none;
+	margin-left: 13px;
+	padding: 0px;
+	}
+
+#menu8 li {
+	display: inline-block;
+	text-align: center;
+}
+
+#menu8 {
+	font-family: Arial;
+	font-size: 10pt;
+	width: 100%;
+	background-color: #FC9D00;
+}
+
+#qqq {
+	
+	color: white;
+}
+
+#www {
+	
+	color: white;
+}
+
+#eee {
+	
+	color: white;
+}
+
+#rrr {
+	
+	color: white;
+}
+
+#ttt {
+	
+	color: white;
+}
+
+#yyy {
+
+	color: white;
+}
