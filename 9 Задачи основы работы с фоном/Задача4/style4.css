@@ -1,0 +1,14 @@
+#aaa {
+	width: 500px;
+	text-align: justify;
+	background-attachment: scroll; 
+}
+
+body {
+	background-image: url(снимок4.png);
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+
+
+

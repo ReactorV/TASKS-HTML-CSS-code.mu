@@ -1,0 +1,11 @@
+div {
+	width: 500px;
+	text-align: justify;
+	background-image: url(Снимок.png);
+	background-attachment: fixed; 
+}
+
+body {
+	background-image: url(Снимок.png);
+	background-attachment: fixed;
+}
