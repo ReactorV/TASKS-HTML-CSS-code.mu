@@ -1,0 +1,22 @@
+#d1 {
+	border: 1px solid red;
+	color: red;
+	height: 50px;
+	width: 30%;
+	background: white;
+	font-size: 14px;
+	background: white;
+	
+
+	-webkit-transition: width 1s ease-out, font-size 1s ease-out;
+	-moz-transition: width 1s ease-out, font-size 1s ease-out;
+	-o-transition: width 1s ease-out, font-size 1s ease-out;
+	transition: width 1s ease-out, font-size 1s ease-out;
+
+}
+
+#d1:hover {
+	width: 100%;
+	font-size: 25px;
+	
+}

@@ -1,0 +1,27 @@
+#d1 {
+ 	padding: 40px 5%;
+	border: 1px solid green; 
+  
+}
+
+#d1 .d2 {
+	width: 30%;
+	height: 30px;
+	border: 1px solid red; 
+	margin-bottom: 40px;
+	   
+  -webkit-transition: width 1s ease-out ;
+   -moz-transition: width 1s ease-out;
+   -o-transition: width 1s ease-out;
+   transition: width 1s ease-out;
+}
+
+#d1 .d2:last-child {
+	margin-bottom: 0;
+}
+
+
+#d1:hover .d2 {
+	width: 100%;
+	
+	}

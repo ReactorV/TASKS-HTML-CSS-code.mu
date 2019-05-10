@@ -1,0 +1,19 @@
+#d1 {
+	border: 1px solid red;
+	height: 50px;
+	width: 30%;
+	background: white;
+	margin-left: 0;
+	
+
+	-webkit-transition: width 1s ease-out 0.2s, margin-left 1s ease-out 0.2s;
+	-moz-transition: width 1s ease-out 0.2s, margin-left 1s ease-out 0.2s;
+	-o-transition: width 1s ease-out 0.2s, margin-left 1s ease-out 0.2s;
+	transition: width 1s ease-out 0.2s, margin-left 1s ease-out 0.2s;
+
+}
+
+#d1:hover {
+	width: 80%;
+	margin-left: 10%;
+	}

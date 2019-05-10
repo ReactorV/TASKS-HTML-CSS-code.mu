@@ -1,0 +1,16 @@
+#d1 {
+   background: white;
+   border: 1px solid red;
+         
+   width: 30%;
+   height: 50px;
+  
+   -webkit-transition: all 3s cubic-bezier(.20,-0.4,0,.81);
+   -moz-transition: all 3s cubic-bezier(.20,-0.4,0,.81);
+   -o-transition: all 3s cubic-bezier(.20,-0.4,0,.81);
+   transition: all 3s cubic-bezier(.20,-0.4,0,.81);   
+}
+   
+#d1:hover {
+	width: 100%; 
+	}

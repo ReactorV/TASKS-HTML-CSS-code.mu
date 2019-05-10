@@ -1,0 +1,23 @@
+#d0 {
+   
+   border: 1px solid red;   
+   width: 50%;
+   height: 30px;
+   margin: 0 auto;
+  }
+
+ #d1 {
+ 
+   background: red;
+   width: 0%;
+   height: 30px;
+
+   -webkit-transition: all 2s linear;
+   -moz-transition: all 2s linear;
+   -o-transition: all 2s linear;
+   transition: all 2s linear;   
+}
+   
+#d0:hover div {
+	width: 100%; 
+	}

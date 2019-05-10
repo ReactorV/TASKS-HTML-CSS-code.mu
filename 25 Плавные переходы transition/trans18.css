@@ -1,0 +1,18 @@
+#test {
+   
+   border: 1px solid red;   
+   width: 150px;
+   height: 50px;
+   margin: 200px auto;
+  
+   -webkit-transition: all 1s linear;
+   -moz-transition: all 1s linear;
+   -o-transition: all 1s linear;
+   transition: all 1s linear;   
+
+   box-shadow: 100px -100px black, -100px 100px black;
+}
+   
+#test:hover{
+	box-shadow: 100px 100px black, 100px 100px black; 
+	}

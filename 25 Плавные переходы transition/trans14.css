@@ -1,0 +1,31 @@
+#d1 {
+   background: white;
+   border: 1px solid red;
+         
+   width: 30%;
+   height: 50px;
+   margin-bottom: 20px;
+	
+   -webkit-transition: all 3s steps(5, start);
+   -moz-transition: all 3s steps(5, start);
+   -o-transition: all 3s steps(5, start);
+   transition: all 3s steps(5, start);   
+}
+   
+#d2 { 
+
+   background: white;
+   border: 1px solid red;
+         
+   width: 30%;
+   height: 50px;
+
+   -webkit-transition: all 3s steps(5, end);
+   -moz-transition: all 3s steps(5, end);
+   -o-transition: all 3s steps(5, end);
+   transition: all 3s steps(5, end);   
+}
+
+#dd:hover div {
+	width: 100%; 
+	}

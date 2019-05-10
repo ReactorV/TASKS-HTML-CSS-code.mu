@@ -1,0 +1,21 @@
+#d1 {
+   background: white;
+   border: 1px solid red;
+      
+   width: 30%;
+   height: 50px;
+
+	text-indent: 2000px;
+   line-height: 50px;
+   text-align: center;
+   
+  -webkit-transition: width 3s linear 3s;
+   -moz-transition: width 3s linear 3s;
+   -o-transition: width 3s linear 3s;
+   transition: width 3s linear 3s;
+      
+}
+
+#d1:hover{
+	width: 100%;
+	}
