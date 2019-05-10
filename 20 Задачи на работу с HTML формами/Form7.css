@@ -1,0 +1,29 @@
+textarea {
+	margin-bottom: 50px;
+}
+
+#tex1 {
+	resize: both;
+	min-height: 100px;
+	min-width: 200px;
+	max-width: 400px;
+	max-height: 300px;
+}
+
+#tex2 {
+	resize: none;
+	width: 200px;
+	height: 100px;
+}
+
+#tex3 {
+	resize: horizontal;
+	width: 200px;
+	height: 100px;
+}
+
+#tex4 {
+	resize: vertical;
+	width: 200px;
+	height: 100px;
+}

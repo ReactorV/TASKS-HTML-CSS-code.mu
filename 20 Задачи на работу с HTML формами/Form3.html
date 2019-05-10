@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form3</title>
+	<link rel="stylesheet" type="text/css" href="Form3.css">
+</head>
+<body>
+	<form>
+		<input type="checkbox" id="check1">
+		<label for="check1">Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку!</label><br><br>
+		<input type="checkbox" id="check2" checked>
+		<label for="checked2">Я отмечен по умолчанию!</label><br><br>
+		<input type="checkbox" id="check3" checked disabled>
+		<label for="check3">Я disabled!</label><br><br>
+
+		<div id="group">
+			<p>Это группа радиокнопок - только одна из них может быть отмечена!</p>
+			<input type="radio" name="rel" value="1" id="rad1">
+			<label for id="rad1"> Это метка для радио </label><br><br>
+			<input type="radio" name="rel" value="2" id="rad2">
+			<label for id="rad2"> Это метка для радио </label><br><br>
+		</div>
+
+		<input type="submit" value="Отправить на сервер" name="Отправить на сервер">
+	</form>
+
+</body>
+</html>
