@@ -1,0 +1,19 @@
+input {
+	width: 200px;
+	outline: none;
+}
+
+#place:focus {
+	color: green;
+	font-weight: bold;
+	} 
+#place2:focus {
+	color: orange;
+	box-shadow: 0 0 5px orange;
+	border: 1px solid orange;
+	} 
+#place3:focus {
+	width: 400px;
+	box-shadow: 0 0 3px grey;
+	} 
+ 

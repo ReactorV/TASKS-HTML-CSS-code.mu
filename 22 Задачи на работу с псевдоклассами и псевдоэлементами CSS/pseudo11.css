@@ -1,0 +1,25 @@
+h1{
+	margin-top: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 10px;
+	text-align: justify;
+	width: 70%;
+
+	counter-reset: list;
+}
+#wrapper p::before {
+	counter-increment: list;
+	content: 'Абзац № ' counter(list) '. ';
+	}
+#reset {
+	counter-reset: list 17;
+	font-weight: bold;
+		}
+
+
+
+
+

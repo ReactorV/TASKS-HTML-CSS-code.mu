@@ -1,0 +1,16 @@
+body {
+	font-size: 24px;
+}
+p {
+	margin-bottom: 20px;
+}
+q:lang(de) {
+	quotes: "\201E" "\201C"; /* Вид кавычек для немецкого языка */ 
+}
+q:lang(fr), q:lang(ru) { /* Вид кавычек для русского и французского языка */ 
+			quotes: "\00AB" "\00BB"; 
+		}
+q:lang(en) {
+	quotes: "\201C" "\201D";
+}
+

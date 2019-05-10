@@ -1,0 +1,15 @@
+h1 {
+	margin-top: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 10px;
+	text-align: justify;
+	width: 70%;
+}
+
+#wrapper p::first-line {
+	color: red;
+	font-style: italic;
+}

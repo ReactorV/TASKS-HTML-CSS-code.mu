@@ -1,0 +1,9 @@
+input:checked + label {
+	color: red;
+}
+input:indeterminate + label {
+	color: blue;
+}
+
+
+

@@ -1,0 +1,28 @@
+#place::-moz-placeholder {
+	color: green;
+}
+#place:-moz-placeholder {
+	color: green;
+}
+#place::-webkit-placeholder {
+	color: green;
+}
+#place::placeholder {
+	color: green;
+}
+
+#place2::placeholder {
+	color: white;
+	background-color:green;
+	} 
+#place2::-moz-placeholder {
+	color: white;
+	background-color:green;
+	} 
+#place2::-webkit-placeholder {
+	color: white;
+	background-color:green;
+	} 
+
+
+ 

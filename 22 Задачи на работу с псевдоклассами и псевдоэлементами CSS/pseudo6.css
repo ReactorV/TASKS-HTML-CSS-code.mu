@@ -1,0 +1,18 @@
+h1{
+	margin-top: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 10px;
+	text-align: justify;
+	width: 70%;
+}
+#wrapper p::before {
+	content: 'Начало: ';
+	color:red;
+}
+#wrapper p::after {
+	content: ' :конец!';
+	color: green;
+}
