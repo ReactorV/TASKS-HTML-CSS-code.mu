@@ -1,0 +1,51 @@
+#rotate {
+	border: 1px solid red;
+	width: 100px; 
+	height: 100px; 
+	margin: 50px auto 0 auto;
+}
+#rotate:hover {
+	transform: rotate(-45deg);
+}
+
+
+#scale {
+	border: 1px solid red;
+	width: 100px; 
+	height: 100px; 
+	margin: 50px auto 0 auto;
+}
+#scale:hover {
+	transform: scale(2);
+}
+
+#skew {
+	border: 1px solid red;
+	width: 100px; 
+	height: 100px; 
+	margin: 50px auto 0 auto;
+}
+#skew:hover {
+	transform: skew(45deg);
+}
+
+
+#translate {
+	border: 1px solid red;
+	width: 100px; 
+	height: 100px; 
+	margin: 50px auto 0 auto;
+}
+#translate:hover {
+	transform: translateX(30px);
+}
+
+#translate2 {
+	border: 1px solid red;
+	width: 100px; 
+	height: 100px; 
+	margin: 50px auto 0 auto;
+}
+#translate2:hover {
+	transform: translate(-10px, -10px);
+}

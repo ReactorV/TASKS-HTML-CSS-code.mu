@@ -1,0 +1,22 @@
+#menu ul {
+	list-style-type: none;
+	}
+
+#menu li {
+		width: 65px; 
+		padding: 0px 10px;
+		margin-left: 5px;
+		border: 1px solid blue;
+		display: inline-block;	
+	}
+#menu li:hover {
+	transform: rotate(15deg);
+	}
+
+#menu a {
+	color:blue;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+}	
+
