@@ -1,0 +1,31 @@
+#green {
+	width: 500px;
+	height: 400px;
+	background-color: green; 
+
+	margin: auto;
+	position: relative;
+}
+
+#white1 {
+	width: 100px;
+	height: 100px;
+	background-color: white; 
+
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+
+#white2 {
+	width: 100px;
+	height: 100px;
+	background-color: white; 
+
+	position: absolute;
+	top: 250px;
+	left: 350px;
+}
+
+

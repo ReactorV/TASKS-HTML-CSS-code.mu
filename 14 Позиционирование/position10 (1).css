@@ -1,0 +1,46 @@
+#traffic_light {
+	width: 200px;
+	height: 430px;
+	border: 1px solid black; 
+
+	margin: auto;
+	position: relative;
+}
+
+#red {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: red; 
+
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+#yellow {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: yellow; 
+
+	position: absolute;
+	top: 160px;
+	left: 50px;
+}
+
+#green {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: green; 
+
+	position: absolute;
+	top: 270px;
+	left: 50px;
+}
+
+

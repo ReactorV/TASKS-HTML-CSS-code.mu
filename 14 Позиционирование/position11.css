@@ -1,0 +1,51 @@
+#head {
+	width: 500px;
+	height: 500px;
+	background-color: #4DEE99; 
+	border-radius: 300px;
+	margin: auto;
+
+	position: relative;
+	}
+
+#eye1 {
+	width: 100px;
+	height: 100px;
+	background-color: white; 
+	border-radius: 60px;
+	
+	position: absolute;
+	top: 70px;
+	left: 100px;
+	}
+
+#eye2 {
+	width: 100px;
+	height: 100px;
+	background-color: white; 
+	border-radius: 60px;
+	
+	position: absolute;
+	top: 70px;
+	right: 100px;
+	}
+
+#nose {
+	width: 70px;
+	height: 70px;
+	background-color: white; 
+		
+	position: absolute;
+	top: 200px;
+	left: 215px;
+	}
+
+#mouth {
+	width: 200px;
+	height: 20px;
+	background-color: white; 
+		
+	position: absolute;
+	top: 350px;
+	left: 150px;
+	}
