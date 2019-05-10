@@ -1,0 +1,39 @@
+#qqq {
+	width: 201px;
+	height: 202px;
+	border-style: solid;
+	border-color: red;
+	border-width: 1px;
+}
+
+div.www {
+	width: 502px;
+	height: 202px;
+	border-style: dotted;
+	border-color: blue;
+	border-width: 1px;
+}
+
+div.eee {
+	height: 102px;
+	width: 102px;
+	border-color: green;
+	border-style: dashed;
+	border-width: 1px;
+}
+div.rrr {
+ 	width: 502px;
+ 	height: 202px;
+ 	border-radius: 20px;
+ 	border-left: 1px solid black;
+ 	border-top: 1px solid blue;
+ 	border-right: 1px solid green;
+ 	border-bottom: 1px solid red;
+ }
+
+div.ttt {
+	height: 302px;
+	width: 302px;
+	border: 1px dashed green;
+	border-radius: 10px 30px;
+}

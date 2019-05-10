@@ -1,0 +1,82 @@
+#qqq {
+	width: 201px;
+	height: 202px;
+	border-style: solid;
+	border-color: red;
+	border-width: 1px;
+}
+
+div.www {
+	width: 502px;
+	height: 202px;
+	border-style: dotted;
+	border-color: blue;
+	border-width: 1px;
+}
+
+div.eee {
+	height: 102px;
+	width: 102px;
+	border-color: green;
+	border-style: dashed;
+	border-width: 1px;
+}
+div.rrr {
+ 	width: 502px;
+ 	height: 202px;
+ 	border-radius: 20px;
+ 	border-left: 1px solid black;
+ 	border-top: 1px solid blue;
+ 	border-right: 1px solid green;
+ 	border-bottom: 1px solid red;
+ }
+
+div.ttt {
+	height: 302px;
+	width: 302px;
+	border: 1px dashed green;
+	border-radius: 10px 30px;
+}
+
+div.yyy {
+	height: 300px;
+	width: 300px;
+	border: 1px dotted green;
+	border-radius: 10px 30px 50px 70px;
+}
+
+div.circle {
+	height: 100px;
+	width: 100px;
+	border: 1px solid red;
+	border-radius: 100px 100px 100px 100px; 
+}
+
+a.linka {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover.linka {
+	color: green;
+	text-decoration: underline;
+}
+
+a.linkb {
+	color: red;
+}
+
+a:hover.linkb {
+	color: blue;
+	text-decoration: line-through;
+}
+
+a.linkc {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover.linkc {
+	color: red;
+	text-decoration: overline;
+}

@@ -1,0 +1,28 @@
+h1, h2,h3 {
+	color: blue;
+	text-align: center;
+	width: 400px;
+}
+
+h1 {
+	font-size: 15pt;
+}
+
+h2, h3 {
+	font-size: 11pt;
+}
+
+b {
+	color: red;
+	font-family: Arial;
+}
+
+p {
+	width: 400px;
+	font:16px/1.9 Arial, sans-serif;
+	text-align: justify;
+	text-indent: 40px;
+}
+ i {
+ 	color: blue;
+ }
