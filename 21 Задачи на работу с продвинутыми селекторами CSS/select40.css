@@ -1,0 +1,21 @@
+
+li {
+	border: 1px solid blue;
+	width: 200px;
+	margin-bottom: 5px;
+	padding: 3px;
+	list-style-position: inside;
+}
+
+li:hover {
+	color: white;
+	background: green; 
+	border: 1px solid green;
+	cursor: pointer;
+}
+
+li:hover + li + li {
+	color: white;
+	background: red; 
+	border: 1px solid green;
+}
