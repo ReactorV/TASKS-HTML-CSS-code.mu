@@ -1,0 +1,55 @@
+div {
+	margin-bottom: 30px;
+}
+
+#grad1{
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to bottom, #F1DB3B, white) 
+}
+
+#grad2{
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to right, #F1DB3B, white) 
+}
+
+#grad3{
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to left, #F1DB3B, white) 
+}
+
+#grad4{
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to top left, red, white) 
+}
+
+#grad5{
+	border: 1px solid black;
+	width: 400px;
+	height: 200px;
+	background: linear-gradient(to right, red, 
+		blue 200px,  white 350px, red) 
+}
+
+#grad6{
+	border: 1px solid black;
+	width: 600px;
+	height: 300px;
+	background: linear-gradient(to bottom, red 100px, 
+		white 100px, white 200px, red 200px, red 300px) 
+}
+
+
+
+
+
+
+
+

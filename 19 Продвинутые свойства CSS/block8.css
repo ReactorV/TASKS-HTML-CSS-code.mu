@@ -1,0 +1,34 @@
+/**{
+	margin:0;
+	padding: 0;
+}*/
+
+
+div {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	margin: 0px auto 100px;
+}
+#b1 {
+	cursor: pointer;
+}
+#b2 {
+	cursor: progress;
+}
+#b3 {
+	cursor: wait;
+}
+#b4 {
+	cursor: crosshair;
+}
+#b5 {
+	cursor: not-allowed;
+} 
+#b6 {
+	cursor: url(curs.png), auto;
+} 
+
+
+
+

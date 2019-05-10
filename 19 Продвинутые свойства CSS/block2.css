@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border: 1px solid green;
+	margin-top: 8px;
+	margin-left: 8px;
+	empty-cells: hide;
+	border-spacing: 10px 5px;
+	border-collapse: separate;
+	
+}
+
+td {
+	padding: 3px;
+	color: white;
+	background-color: green;
+	border: 1px solid #004800;
+}

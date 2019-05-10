@@ -1,0 +1,36 @@
+/**{
+	margin:0;
+	padding: 0;
+}*/
+
+
+div {
+	margin-bottom: 30px;
+}
+
+#b1 {
+	text-decoration-style: wavy;
+	text-decoration-color: red;
+	text-decoration-line: underline; 
+}
+ 
+#b2 {
+	text-decoration-style: dotted;
+	text-decoration-color: red;
+	text-decoration-line: underline; 
+} 
+
+#b3 {
+	text-decoration-style: dashed;
+	text-decoration-color: red;
+	text-decoration-line: underline; 
+}
+
+#b4 {
+	text-decoration-style: double;
+	text-decoration-color: red;
+	text-decoration-line: underline; 
+}
+
+
+

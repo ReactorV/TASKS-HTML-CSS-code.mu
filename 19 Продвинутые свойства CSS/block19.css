@@ -1,0 +1,50 @@
+div {
+	margin-bottom: 30px;
+}
+
+#grad1{
+	border: 1px solid black;
+	width: 400px;
+	height: 100px;
+	background: linear-gradient(to right, white, white 5px, black 5px, black 10px); 
+	background-size:10px 10px;
+	
+}
+
+#grad2{
+	border: 1px solid black;
+	width: 400px;
+	height: 100px;
+	background: linear-gradient(to top, white, white 5px, black 5px, black 10px); 
+	background-size:10px 10px; 
+}
+
+#grad3{
+	border: 1px solid black;
+	width: 400px;
+	height: 100px;
+	background: linear-gradient(to bottom, white, white 5px, black 5px, black 6px); 
+	background-size:6px 6px;
+}
+
+#grad4{
+	border: 1px solid black;
+	width: 400px;
+	height: 30px;
+	background: repeating-linear-gradient(45deg, white, white 5px, red 5px, red 8px); 
+}
+
+#grad5{
+	border: 1px solid black;
+	width: 400px;
+	height: 400px;
+	background: repeating-radial-gradient(circle at center, black 0px, black 5px, white 5px,white 10px)
+}
+
+#grad6{
+	border: 1px solid black;
+	width: 400px;
+	height: 100px;
+	background: repeating-linear-gradient(-45deg, white, white 5px, black 5px, black 6px),
+		repeating-linear-gradient(45deg, white, white 5px, black 5px, black 6px)
+}

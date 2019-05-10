@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	margin: 20px 13px;
+	padding: 5px;
+	border: 1px solid red;
+}
+#bl1 {
+	letter-spacing: 4px;
+	text-align: left;
+}
+#bl2 {
+	letter-spacing: -1px;
+	text-align: justify;
+}
+#bl3 {
+	word-spacing: 10px;
+	text-align: left;
+}
+#bl4 {
+	letter-spacing: 0;
+	word-spacing: -7px;
+	text-align: justify;
+	}
+#bl5 {
+	font-variant: small-caps;
+	text-align: justify;
+}	
+#bl6 {
+	text-transform: uppercase;
+	text-align: justify;
+	word-spacing: -1px;
+}

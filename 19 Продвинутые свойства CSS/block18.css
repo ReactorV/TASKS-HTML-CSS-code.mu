@@ -1,0 +1,60 @@
+div {
+	margin-bottom: 30px;
+}
+
+#grad1{
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	background: radial-gradient(#53DBFD, #0B8CBE) 
+}
+
+#grad2{
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	background: radial-gradient(at top, #53DBFD, #0B8CBE) 
+}
+
+#grad3{
+	border: 1px solid black;
+	width: 400px;
+	height: 200px;
+	background: radial-gradient(circle, #53DBFD, #0B8CBE) 
+} 
+
+
+#grad4{
+	border: 1px solid black;
+	width: 400px;
+	height: 200px;
+	background: radial-gradient(ellipse, #53DBFD, #0B8CBE) 
+}
+
+#grad5{
+	border: 1px solid black;
+	width: 400px;
+	height: 200px;
+	background: radial-gradient(circle at center, #53DBFD, #0B8CBE 100px)
+}
+
+#grad6{
+	border: 1px solid black;
+	width: 400px;
+	height: 200px;
+	background: radial-gradient(circle at 30px 40px, #53DBFD, #0B8CBE 50px)
+}
+
+#grad7{
+	border: 1px solid black;
+	width: 400px;
+	height: 200px;
+	background: radial-gradient(circle at center, #333333 10px,
+	white 30px, white 40px, #008000 50px)
+}
+
+#grad8{
+	border: 1px solid black;
+	width: 400px;
+	height: 200px;
+	background: radial-gradient(circle at center, #008000 30px, white 30px, white 50px, #008000 50px)

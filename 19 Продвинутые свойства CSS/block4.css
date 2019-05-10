@@ -1,0 +1,44 @@
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+div {
+    border: 1px solid red;
+    margin: 20px 5px;
+    padding: 5px;
+}
+
+#d1 {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+#d2 {
+	width: 100px;
+	height: 100px;
+	overflow-y: scroll;
+}
+
+#d3 {
+	width: 300px;
+	height: 220px;
+	overflow: scroll;
+	text-align: justify;
+}
+
+#d4 {
+	width: 300px;
+	height: 20px;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+#d5 {
+	width: 300px;
+	height: 40px;
+	overflow-x: scroll;
+	white-space: nowrap;
+}

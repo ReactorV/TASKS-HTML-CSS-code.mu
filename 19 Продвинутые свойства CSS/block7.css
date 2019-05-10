@@ -1,0 +1,31 @@
+/**{
+	margin:0;
+	padding: 0;
+}*/
+
+
+div {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	margin: 0px auto 100px;
+}
+#b1 {
+	box-shadow: 20px 30px 0 0 #959595;
+}
+#b2 {
+	box-shadow: 20px 30px 10px 0 #959595;
+}
+#b3 {
+	box-shadow: 20px 30px 10px 0 #959595, -20px -30px 10px 0 #959595;
+} 
+#b4 {
+	box-shadow: inset 5px 5px 10px 0 #959595;
+}
+#b5 {
+	box-shadow: inset 5px 5px 10px 0 blue, inset -5px -5px 10px 0 red;
+} 
+
+
+
+

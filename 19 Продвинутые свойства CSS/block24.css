@@ -1,0 +1,17 @@
+
+@font-face {
+	font-family: Lombardina;
+	src: url(fonts/Lombardina.ttf);
+}
+
+#col1{
+	margin: 0px auto;
+	width: 70%;
+	padding: 10px;
+	text-align: justify;
+	font-family: Lombardina;	
+	font-size: 33px;
+	}
+
+
+

@@ -1,0 +1,86 @@
+
+
+div {
+	margin: 100px auto;
+	font: 16px "Times New Roman";
+	text-align: justify;
+}
+
+#image1{
+	cursor: pointer;
+	border-width: 26px;
+	border-style: solid;
+	background: green;
+	width: 400px;
+	height: 400px;
+	border-image: url("border_img.png") 26 repeat;
+	}
+
+#image1:hover {
+	cursor: pointer;
+	border-width: 26px;
+	border-style: solid;
+	background: green;
+	width: 400px;
+	height: 400px;
+	border-image: url("border_img.png") 26 round;
+	}
+
+#image2{
+	border-width: 26px;
+	border-style: solid;
+	background: green;
+	width: 400px;
+	height: 400px;
+	border-image: url("border_img.png") 26 stretch;
+	}
+
+#image3{
+	border-width: 26px;
+	border-style: solid;
+	background: green;
+	width: 400px;
+	height: 400px;
+	border-image: url("border_img.png") 26 repeat stretch;
+	}
+#image4{
+	border-width: 26px;
+	border-style: solid;
+	background: green;
+	width: 400px;
+	height: 400px;
+	border-image: linear-gradient(to top, blue, red) 26;
+	}
+
+#image5{
+	border-width: 26px;
+	border-style: solid;
+	background: green;
+	width: 400px;
+	height: 400px;
+	border-image: url(border_img.png) 26 repeat;
+	}
+
+#image5:hover {
+	border-width: 26px;
+	border-style: solid;
+	background: green;
+	width: 400px;
+	height: 400px;
+	border-image: url(border_img.png) 26 repeat;
+	border-image-outset:3;
+	}
+
+#image6{
+	border-width: 50px;
+	border-style: solid;
+	width: 400px;
+	height: 400px;
+	border-image: url(border-image-fill.png) 25% 30% 10% 20% stretch;
+	}
+
+
+
+
+
+

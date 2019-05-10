@@ -1,0 +1,16 @@
+#col1{
+	margin: 0px auto;
+	width: 70%;
+	padding: 10px;
+	text-align: justify;	
+	}
+
+#col1 p {
+	column-count: 3;
+	column-gap: 50px;
+	column-rule: 1px dotted black;
+}
+
+#col1 h1 {
+	column-span: 1;
+}

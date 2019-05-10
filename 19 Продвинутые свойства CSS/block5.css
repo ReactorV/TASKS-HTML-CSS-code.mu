@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background: url(house.jpg) no-repeat -200px -200px;
+	display: block;
+	height: 300px;
+}
+
+
+#vis1 {
+	border: 30px solid rgba(255, 255, 255, 0.6);
+	width: 150px;
+	height: 150px;
+    color:white;
+    margin-top: 35px;
+    margin-left: 35px;
+    padding: 10px;
+
+}
+#vis2 {
+	border: 30px solid white;
+	width: 150px;
+	height: 150px;
+    color:white;
+    position: absolute;
+    top: 35px;
+    left: 300px;
+    opacity: 0.5;
+    padding: 10px;
+
+}

@@ -1,0 +1,47 @@
+
+body {
+	margin-top: -8px;
+}
+
+#ws1 {
+	margin-bottom: 30px;
+	border: 1px solid black;
+	width: 200px;
+	white-space: nowrap;
+
+}
+
+#ws2 {
+	margin-bottom: 30px;
+	border: 1px solid black;
+	width: 200px;
+	white-space: pre;
+}
+
+#ws3 {
+	margin-bottom: 30px;
+	border: 1px solid black;
+	width: 200px;
+	white-space: pre-wrap;
+}
+
+#ws4 {
+	margin-bottom: 30px;
+	border: 1px solid black;
+	width: 200px;
+	white-space: pre-line;
+}
+
+#ws5 {
+	margin-bottom: 30px;
+	border: 1px solid black;
+	width: 200px;
+	white-space: normal;
+}
+
+
+
+
+
+
+

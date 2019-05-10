@@ -1,0 +1,57 @@
+  
+div {
+	margin-bottom: 20px;
+	margin-left: 0;
+	}
+
+/*img {
+	margin-right: 0;
+}	*/
+
+#gray {
+	filter: grayscale(100%);
+}
+
+#sep {
+	filter: sepia(100%);
+}
+
+#sat {
+	filter: saturate(50%);
+}
+
+#hue {
+	filter: hue-rotate(90deg);
+}
+
+#inv {
+	filter: invert(100%);
+}
+
+#opa {
+	filter: opacity(50%);
+}
+
+#bright {
+	filter: brightness(70%);
+}
+
+#con {
+	filter: contrast(50%);
+}
+
+#blur {
+	filter: blur(1px);
+}
+
+#shad {
+	filter: drop-shadow(15px 15px 20px);
+}
+
+
+
+
+
+
+
+
