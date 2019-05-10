@@ -1,0 +1,52 @@
+
+.placeholder(@code) {
+&-webkit-input::placeholder{@code();}
+&-moz-::placeholder{@code();}
+&-ms-:placeholder{@code();}
+&::placeholder{@code();}
+}
+
+input {
+	.placeholder( {
+	  color:red;
+	  width:200px;
+	});
+}
+/* функция .selection */
+.selection(@parametr) {
+  &::-webkit-selection{@parametr();}
+  &::-moz-selection{@parametr();}
+  &::selection{@parametr();}
+}
+
+.text {
+  .selection({
+    color:red;
+    background:black;
+  })
+}
+
+/* функция .keyframes */
+
+.keyframes(@nameanim, @selectors) {
+  @-webkit-keyframes @nameanim {@selectors();}
+  @-moz-keyframes @nameanim {@selectors();}
+  @keyframes @nameanim {@selectors();}
+}
+
+
+.keyframes (anim, {
+    from {left:0px;}
+    to {left:100px;}
+  });
+
+
+/* С помощью цикла создайте следующие классы
+ */
+.generate-f(100);
+.generate-f(@n,@i:1) when (@i =< @n) {
+.f@{i} {
+font-size: (@i);
+}
+.generate-f(@n, (@i+1))
+}

@@ -1,0 +1,20 @@
+.red {
+	color: red;
+	}
+p {
+	.red;
+}
+
+.blue {
+	color: blue;
+	}
+p {
+	.blue;
+}
+
+.green {
+	color: green;
+	}
+p {
+	.green;
+}
