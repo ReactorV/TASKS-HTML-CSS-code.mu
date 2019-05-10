@@ -1,0 +1,142 @@
+
+body {
+	margin:0;
+	padding: 0;
+	background-color: #EBEBEB; 
+}
+
+#header {
+	height: 50px;
+	background-color: #242424;
+	min-width: 1100px;
+	margin: 0 auto;
+}
+
+	#menu, #wrapper, #footerbars {
+		width: 1100px;
+		margin-left: auto;
+		margin-right: auto;  
+	}
+	#menu ul{
+		margin: 0;
+		padding: 0;
+		font-size: 0px; /* ВОПРОС: ПОЧЕМУ БЕЗ ЭТОГО КОДА ПОЯВЛЯЮТСЯ ОТСТУПЫ МЕЖДУ li в МЕНЮ?*/
+	}
+
+	#menu li{
+		display: inline-block;
+		line-height: 50px;
+	}
+
+	#menu a {
+		display: block;
+		color: white;
+		padding: 0 20px;
+		font-size: 19px;
+	}
+
+	#menu a:link, #menu a:visited {
+		color: white;
+		text-decoration: none;
+	}
+
+	#menu a:hover, #menu a.active {
+		background-color: #585858;
+	}
+
+#wrapper {
+	margin: 30px auto;
+	background-color: white;
+	height: 1916px; /* 	ВОПРОС: ПОЧЕМУ БЕЗ УКАЗАНИЯ ВЫСОТЫ НЕ ПОЛУЧИЛОСЬ СДЕЛАТЬ КАК У ТЕБЯ В КОДЕ?*/
+}
+	#left, #right {
+	width: 250px;
+	text-align: justify;
+	font-size: 13px; 
+	}
+
+	#left>div, #right>div {
+	margin: 20px 20px 0 20px;
+	}
+
+	#left h3, #right h3 {
+		font-size: 17px;
+		margin: 0 0 10px 0;
+	}
+	
+	#left p, #right p {
+		margin: 0 0 10px 0
+	}
+
+	#left {float: left;}
+	#right {float: right;}
+
+	#content {
+	margin: 0 250px;
+	padding: 20px 0 20px 0;
+	text-align: justify;
+	min-height: 600px;
+	}
+
+	#content h1 {
+		font-size: 21px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#content h2 {
+		font-size: 19px;
+		margin: 20px 0 0 0;
+		padding: 0;
+	}
+
+	#content p {
+		margin: 10px 0 10px 0;
+	}
+
+	#content img {
+		min-width: 600px;
+	}	
+
+#footer {
+	background-color: #242424;
+	text-align: center;
+	font-size: 13px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	color: white;
+}
+	#footerbars>div {
+		width: 24%;
+		min-height: 200px;
+		float: left;
+		background-color: #EBEBEB;
+		text-align: center;
+		margin-right:1.3333%;
+		color: black;
+		}
+
+	#footerbars>div p {
+		margin: 0 0 3px 0;
+	}
+
+	#footerbars>div h2 {
+		margin: 0;
+	}
+
+
+	#footerbars .last {
+		margin-right:0;
+	}
+
+	#footerbars>div >div {
+		padding: 10px;
+	}
+
+	.clearfix {
+	clear: both;
+	}
+
+	#copyright {
+		margin-top: 30px;
+	}

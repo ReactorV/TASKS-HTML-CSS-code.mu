@@ -1,0 +1,113 @@
+body {
+	background-color: #EBEBEB;
+}
+
+#wrapper {
+	width: 890px;
+	margin: 30px auto;
+	background-color: white;
+	
+}
+
+#header {
+	height: 50px; 
+	background-color: #F8AA03;
+}
+	#menu ul {
+		margin: 0;
+		padding: 0;
+	}
+	#menu li {
+		display: inline-block;
+		padding: 0 10px 0 20px;
+
+	}
+	#menu a {
+		font-size: 19px;
+		text-decoration: none;
+		color: white;
+		line-height: 50px;
+	}
+	#menu a:hover, #menu a.active {
+		text-decoration: underline;
+		color: white;
+		font-size: 19px;
+		line-height: 50px;
+	}
+	
+	
+#right {
+	width: 230px;
+	float: right;
+	margin: 0px 20px 0 0;
+	text-align: justify;
+
+	}
+	
+	#right p {
+	font-size: 13px;
+	margin: 10px 0 0 0;
+	padding: 0;
+	}
+
+	#right h4 {
+		margin: 0;
+		padding: 20px 0 0 0;
+		font-size: 17px;
+	}
+
+	
+#content {
+	width: 600px;
+	margin: 0;
+	text-align: justify;
+	padding: 20px;
+}
+
+	#content h1 {
+		margin: 0px;
+		font-size: 21px;
+	}
+
+	#content h2 {
+		margin: 20px 0 10px 0;
+		font-size: 19px;
+	}
+
+	#content img {
+		width: 600px;
+	}
+	#content p {
+		margin: 10px 0 10px 0;
+	}
+
+	#content table {
+		width: 600px;
+		text-align: center;
+		border-collapse: separate;
+	}
+
+	#content table th, #content table td {
+		border: 1px solid black;
+	}
+	#content table th {
+		background-color: #EBEBEB;
+	}
+
+
+#footer {
+	width: 100%;
+	background-color: #F8AA03;
+	padding: 30px 0;
+	/*height: 75px;*/ 
+	font-size: 13px;
+	color: white;
+	text-align: center;
+
+}
+
+
+
+.clearfix {
+	clear: both;
+}

@@ -1,0 +1,105 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+#header {
+	height: 200px; 
+	outline: 1px solid black;
+	position: relative;
+}
+
+#logo {
+	position: absolute;
+	top: 10px;
+	left: 0px;
+}
+
+	#logo img {
+	width: 200px;
+	}
+
+#sitename {
+	font-weight: bold;
+	font-size: 19px;
+	position: absolute;
+	top: 10px;
+	left: 200px;
+}
+
+#menu {
+	border: 1px solid black;
+	position: absolute;
+	top: 40px;
+	left: 200px;
+	}
+
+	#menu ul {
+	padding: 0px;
+	margin: 0px;
+	}
+ 
+	#menu li {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	float: left;
+	}
+
+	#menu a {
+	color: #004FFF;
+	text-decoration: none;
+	padding: 0px 10px;
+	line-height: 30px;
+	}
+
+	#menu a:hover, #menu a.active {
+	color: red;
+	text-decoration: underline;
+	}
+
+
+#left, #right {
+	width: 200px;
+	/*height: 700px;*/
+	/*outline: 1px solid black;*/
+}
+
+#left {float: left;}
+#right {float: right;}
+
+#content {
+	
+	border: 1px solid black;
+	margin: 0 200px;
+	padding: 0px 20px;
+	text-align: justify;
+	}
+
+	#content h1 {
+	margin: 0px;
+	padding: 0px;
+	}
+
+	#content p {
+	margin: 10px 0;
+	}
+
+#footer {
+	/*height: 200px; */
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 180px;
+	font-weight: bold;
+
+}
+
+.clearfix {
+	clear: both;
+}
