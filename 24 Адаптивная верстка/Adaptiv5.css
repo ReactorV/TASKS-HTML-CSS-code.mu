@@ -1,0 +1,47 @@
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+@media screen and (max-width:480px) {
+
+.block {	
+	width: 100%;
+	}
+
+.row {
+	flex-direction: column;
+	}
+}
+
+
+ @media screen and (min-width:480px) and (max-width: 800px) {
+	.block {
+	width: 49%;
+	}
+} 
+
+@media  screen and (min-width:800px) {
+	.block {
+	width: 24%;
+	}
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.block {
+	background-color: green;
+	height: 300px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: white;
+	}

@@ -1,0 +1,33 @@
+
+#wrapper {
+	width: 90%;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+
+@media screen and (min-width:800px) {
+
+.block {	
+	width: 49%;
+	float: left;
+}
+
+.block:first-child {
+	width: 49%;
+	margin-right: 2%;
+	float: left;
+}
+}
+
+@media screen and (max-width:800px) {
+	.block {
+
+}
+}
+
+.block {
+	background-color: green;
+	height: 300px;
+	margin-bottom: 20px;
+}
