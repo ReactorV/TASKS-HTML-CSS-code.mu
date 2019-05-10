@@ -1,0 +1,78 @@
+@mixin red{
+  color:red;
+}
+p {
+  @include red;
+}
+
+@mixin blue {
+  color:blue;
+}
+p{
+  @include blue;
+}
+
+@mixin green {
+  color:green;
+}
+p{
+  @include green
+}
+
+@mixin placeholder {
+&::-webkit-input-placeholder { @content; }
+&:-moz-placeholder { @content; }
+&::-moz-placeholder { @content; }
+&:-ms-input-placeholder { @content; } 
+}
+.input {
+@include placeholder {
+color: green;
+width:200px;
+}
+}
+
+@mixin selection {
+&::-webkit-selection { @content; }
+&:-moz-selection { @content; }
+&::-moz-selection { @content; }
+&:-ms-input-selection { @content; } 
+}
+.text {
+@include selection {
+color: green;
+background:black;
+}
+}
+
+@mixin keyframes($name) {
+@-webkit-keyframes #{$name} {
+@content;
+}
+
+@-moz-keyframes #{$name} {
+@content;
+}
+
+@-ms-keyframes #{$name} {
+@content;
+}
+
+@keyframes #{$name} {
+@content;
+}
+}
+
+@include keyframes(name-of-animation) {
+0% {
+transform: rotate(0deg);
+}
+
+100% {
+transform: rotate(360deg);
+}
+}
+
+@for $i from 0 to 100 {
+  f#{$i+1} {font-size:#{$i+1}px;}
+}
