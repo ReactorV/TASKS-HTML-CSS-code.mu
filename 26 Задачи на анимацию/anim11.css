@@ -1,0 +1,29 @@
+
+@keyframes anim {
+	0% {width: 10%;}
+	100% {width: 100%;}
+	} 
+
+	
+#d1 {
+	border:1px solid red;
+	width:30%;
+	padding: 10px;
+	margin-bottom: 30px;
+}	
+
+.move {
+	border:1px solid blue;
+	height: 50px;
+	width:10%;
+	}
+
+
+
+.move {
+	animation: anim 2s ease infinite alternate;
+	animation-play-state:paused;
+}
+#d1:hover +.move{
+	animation-play-state:running;
+}

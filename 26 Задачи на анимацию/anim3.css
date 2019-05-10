@@ -1,0 +1,16 @@
+#d1 {
+	border:1px solid red;
+	width: 200px;
+	height: 200px;
+	background: white;
+
+}
+
+@keyframes block {
+	from {background: white}
+	to {background: red}
+}
+
+#d1 {
+	animation: block 4s infinite 0s;
+}

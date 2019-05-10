@@ -1,0 +1,31 @@
+#d1 {
+	border:1px solid red;
+	width: 50px;
+	height: 50px;
+	background: white;
+}
+
+@keyframes block {
+	0% {margin-left: 3px;
+		margin-top: 0}
+	25% {margin-left:500px;
+		margin-top: 0}
+	50% {margin-left:500px;
+		margin-top: 200px;}
+	75% {margin-left:3px;
+		margin-top: 200px;}
+	100% {margin-left:3px;
+		margin-top: 0;}
+
+} 
+
+@keyframes block2 {
+	0% {background: white}
+	50% {background: red}
+	100% {background: white}
+}
+
+
+#d1 {
+	animation: block 8s linear infinite 0s, block2 2s linear infinite;
+}

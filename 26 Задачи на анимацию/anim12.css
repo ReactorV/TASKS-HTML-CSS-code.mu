@@ -1,0 +1,47 @@
+
+@keyframes anim {
+	40%, 70%, 90% {animation-timing-function: ease-out;
+		bottom: 0;}
+	
+	0% {bottom: 200px;
+		animation-timing-function: ease-in;
+		left: 0;
+		} 
+	55% {bottom: 50px;
+		animation-timing-function: ease-in;
+		} 
+	80% {bottom: 25px;
+		animation-timing-function: ease-in;
+		} 
+	95%{
+		bottom: 10px;
+		animation-timing-function: ease-in;}
+	100% {bottom: 0;
+		animation-timing-function: ease-in;
+		left: 110px;
+		} 
+}
+	
+#d1 {
+	border:1px solid red;
+	width:220px;
+	height: 220px;
+	background: white;
+	margin:0 auto; 
+	position: relative;
+}	
+
+.circle {
+	border:1px solid red;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	background: red;
+	position: absolute;
+	}
+
+
+
+.circle {
+	animation: anim 5s;
+	}

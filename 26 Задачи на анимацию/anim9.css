@@ -1,0 +1,23 @@
+
+@keyframes d1 {
+	0% {width: 0%;}
+	100% {width: 100%;}
+	} 
+
+#wrapper {
+	border:1px solid red;
+	height: 30px;
+	width:50%;
+	margin:0 auto;
+	}
+
+#d1 {
+	height: 30px;
+	background: red;
+	width: 0%;
+}	
+
+
+#d1 {
+	animation: d1 16s linear infinite forwards;
+}
