@@ -1,0 +1,75 @@
+
+#main {
+	box-sizing: border-box;
+	width: 700px;
+display: block;
+	margin: 50px auto;
+	border: 1px solid black;
+	padding: 5px 10px 0px 10px;
+
+}
+
+#text {
+	font-size: 13pt;
+	text-align: justify;
+}
+
+#main h1 {
+	font-size: 24pt;
+	text-align: center;
+}
+
+#menu ul {
+list-style-type: none;
+padding-left: 0px;
+}
+
+#menu li {
+	display: inline-block;
+
+
+}
+
+#menu a:link {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	display: block;
+	padding: 0px 5px;
+	margin-right: 5px;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	text-align: center;
+	color: #484848;
+	background-color: white;
+
+}
+
+#menu {
+	height: 30px;
+	background-color: #484848;
+	width: 698px;
+	margin-left: -10px;
+	margin-top: -19px;
+	font: bold 10pt Arial;
+}
+
+#menu .mmm {
+	color: white;
+}
+
+#text a:link {
+	color: #0000FF;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+#text a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
